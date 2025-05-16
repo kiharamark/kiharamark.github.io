@@ -9,6 +9,7 @@ body{
     padding: 0px;
 }
 
+
 div.title{
     font-size: 67px;
     line-height: 60px;
@@ -52,4 +53,14 @@ div.cover{
 div.container{
     display:flex;
     flex-wrap: wrap;
+}
+
+/* hero video */
+
+video{
+    width:400px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 3px;
 }
